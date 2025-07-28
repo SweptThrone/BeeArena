@@ -1,0 +1,30 @@
+main: one.sweptthr.beearena.BeeArena
+name: BeeArena
+version: 0
+api-version: 1.20
+author: SweptThrone
+depend: [ WorldGuard ]
+commands:
+    beearena:
+        description: See info about BeeArena
+        usage: "Usage: /beearena"
+    setregion:
+        description: Set the world and region of the hive
+        usage: "Usage: /beearena:setregion <world> <region>"
+        permission: beearena.admin
+    addweapon:
+        description: Add the weapon you're currently holding to the list of weapons that can harm Man Huntin' Bees
+        usage: "Usage: /beearena:addweapon"
+        permission: beearena.admin
+    spawninterval:
+        description: Set the spawn interval in MILLISECONDS of bees in the hive
+        usage: "Usage: /beearena:spawninterval <milliseconds>"
+        permission: beearena.admin
+    maxbees:
+        description: Set the maximum number of bees allowed in the arena at once
+        usage: "Usage: /beearena:maxbees <max>"
+        permission: beearena.admin
+permissions:
+    beearena.admin:
+        description: Allows setting the region and adding weapons
+        default: op
