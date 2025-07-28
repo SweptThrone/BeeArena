@@ -5,7 +5,7 @@ I also forgot most of the information about it.
 The files are provided.  If you can figure it out, go crazy.  
 
 ## Description  
-September 19, 2023  
+*September 19, 2023*  
 BeeArena is a plugin for Minecraft Spigot servers that allows you to create an  
 arena in which special hostile bees spawn.  
   
